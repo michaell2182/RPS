@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div id="score">Player: 0 - Computer: 0</div>
+        <div class="choices">
+            <button class="choice" id="rock">
+                <i class="fas fa-hand-rock"></i> Rock
+            </button>
+            <button class="choice" id="paper">
+                <i class="fas fa-hand-paper"></i> Paper
+            </button>
+            <button class="choice" id="scissors">
+                <i class="fas fa-hand-scissors"></i> Scissors
+            </button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="difficulty">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button id="start-game">Start Game</button>
+    </div>
+    <div id="win-screen" class="hidden">
+        <h2>Game Over!</h2>
+        <p id="win-message">Player wins!</p>
+        <button id="restart-button">Restart Game</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#win-screen {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 999;
+}
+
+.hidden {
+    display: none;
+}
+/* Style the label for dark mode */
+label {
+    font-size: 16px;
+    color: #ffffff; /* White text */
+}
+
+/* Style the select element for dark mode */
+select {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #333; /* Dark border color */
+    border-radius: 4px;
+    background-color: #333; /* Dark background color */
+    color: #ffffff; /* White text */
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Style select options for dark mode */
+select option {
+    background-color: #333; /* Dark background color */
+    color: #ffffff; /* White text */
+}
+
+/* Style when select is focused for dark mode */
+select:focus {
+    outline: none;
+
+}
+#start-game {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #333; /* Dark background color */
+    color: #ffffff; /* White text */
+    border: 1px solid #007bff; /* Blue border color */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the button on hover for dark mode */
+#start-game:hover {
+    color: #ffffff; /* White text on hover */
+}
